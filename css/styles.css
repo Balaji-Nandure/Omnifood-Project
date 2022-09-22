@@ -317,3 +317,8 @@
 strong {
     font-weight: medium;
 }
+
+.all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+}
