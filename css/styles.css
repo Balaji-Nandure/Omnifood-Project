@@ -244,6 +244,15 @@
     border-radius: 1.1rem;
     /* image on the meal card is coming outside and above border radius effect becoming null. so use overflow hidden */
     overflow: hidden;
+
+    /* to add animation to hover state of meal card */
+    transition: all 0.4s;
+}
+
+.meal:hover {
+    transform: translateY(-1.2rem);
+    /* as it moving upward in y direction i.e to the light source, its shadow should increase and become lighter thats why code below line */
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.075);
 }
 
 .meal-content {
@@ -321,4 +330,12 @@ strong {
 .all-recipes {
     text-align: center;
     font-size: 1.8rem;
+}
+
+/***********************************************/
+/* SECTION TESTIMONIALS */
+/***********************************************/
+
+.section-testimonials {
+    padding: 9.6rem 0;
 }
